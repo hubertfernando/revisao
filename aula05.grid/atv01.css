@@ -1,0 +1,29 @@
+.box{
+    background-color: yellow;
+    height:500px;
+    width: auto;
+    border: white 6px solid;
+    display: grid;
+    grid-template-areas: "mL topo mR"
+                         "mL cont mR";
+    grid-template-rows: 500px 1fr 500px;
+    grid-template-columns: 200px 1fr 200px ;
+}
+.titulo{
+    background-color: red;
+    grid-area: topo;
+
+}
+.menuE{
+    background-color: brown;
+    grid-area: mL;
+    
+}
+.conteudo{
+    background-color: green;
+    grid-area: cont;
+}
+.menuR{
+    background-color: pink;
+    grid-area: mR;
+}
