@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#div1{
+    background-color: red;
+    height: 100px;
+padding: 20px;
+}
+#div3{
+    background-color: blue;
+    height: 100px;
+    padding: 20px;
+}
+#div4{
+    background-color: yellow;
+    height: 100px;
+   
+    padding: 20px;
+}
+#div2{
+   
+    align-items: center;
+    font-size: 50px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    margin-left: 300px;
+    width: 590px;
+
+}

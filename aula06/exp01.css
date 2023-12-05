@@ -1,0 +1,41 @@
+body{
+    margin: 10px;
+    background-color: blue;
+}
+.box{
+    height: 800px;
+    width: auto;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: "hea hea hea"
+                         "menu main rig"
+                         "menu foo foo";
+    grid-template-rows: 120px 1fr 300px;
+    grid-template-columns: 200px 1fr 500px ;
+}
+.header1{
+    background-color: aquamarine;
+    grid-area: hea;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+
+}
+.right1{
+    background-color: aquamarine;
+    grid-area: rig;
+    
+}
+.main1{
+    background-color: aquamarine;
+    grid-area: main;
+}
+.menu1{
+    background-color: aquamarine;
+    grid-area: menu;
+
+}
+.footer1{
+    background-color: aquamarine;
+    grid-area: foo;
+}

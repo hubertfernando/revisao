@@ -1,0 +1,66 @@
+body{
+    margin: 10px;
+    background-color: blue;
+}
+.box{
+    height: 500px;
+    width: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto ;
+    justify-content:space-between;
+  
+}
+.l1{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+
+    
+
+}
+.l2{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+    
+    
+}
+.l3{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.l4{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+    
+
+}
+.l5{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.l6{
+    background-color: aquamarine;
+    border: black 2px solid;
+    padding: 100px;
+    font-size: 60px;
+    text-align: center;
+   
+    
+}
