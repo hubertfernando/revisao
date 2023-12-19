@@ -1,0 +1,62 @@
+.cont{
+    margin: 100px;
+    height: 700px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "he he"
+                        "qg la"
+                        "fi fi";
+    grid-template-columns: 700px 300px;
+    grid-template-rows: 120px 1fr 120px;
+    
+
+}
+.header{
+  grid-area: he;
+  background-color: blueviolet;
+}
+
+.lateral{
+    grid-area: la;
+    background-color: aqua;
+}
+.qG{
+    grid-area: qg;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.final{
+    background-color: violet;
+    grid-area: fi;
+    display: flex;
+}
+.div1, .div2, .div3{
+    width: 100%;
+    height: 154px;
+}
+.div1 {
+    background-color: brown;
+}
+.div2{
+    background-color: wheat;
+}
+.div3{
+    background-color: burlywood;
+}
+.r1,.r3{
+    width: 150%;
+    height: 150px;
+}
+.r1{
+    background-color: green;
+
+}
+.r2{
+    background-color: greenyellow;
+    width: 200%;
+    height: 150px;
+}
+.r3{
+    background-color: green;
+}
